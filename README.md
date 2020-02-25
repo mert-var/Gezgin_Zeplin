@@ -32,3 +32,15 @@ Bir turizm firması yeni geliştirilen Zeplin aracı ile turistlere Türkiye'yi 
 
 • 100 km'nin Zeplin'e maliyeti 1000 TL'dir.
 
+**Çözüm için yapılması gereken adımlar:**
+
+• Türkiye'nin şehirlerini işeren latitude, longitute, altitude (rakım) ve komşuluk bilgilerini işeren bir dosya hazırlanmalıdır (lat long altitude bilgileri işin verilen dosyadan faydalanılmalı).
+
+• Her şehrin komşu şehrine gidip gidemeyeceği tespit edilmelidir. Bunun tespiti için kendi rakım ve komşu şehrin rakım bilgisi değerlendirilerek eğim (derece) kriterini sağlayıp sağlamadığına bakılmalıdır. Eğim hesaplanırken yükseklik değeri metre, yatay mesafe kilometre olarak alınmalıdır.
+
+• Yol uzunlukları yükseklik bilgisi kilometreye dönüştürülerek hesaplanmalıdır.
+
+• Her şehir düğüm, gidilebilir komşu düğümler ve hesaplanan ağırlık değeri bağlantıların kenarı olacak şekilde graf yapısı tanımlanmalıdır. Geliştirilecek algoritma graf üzerinde çaışacak şekilde ayarlanmalıdır. Algoritma olarak En kısa yol algoritmalarından Bellman Ford, Dijkstra, önereceğiniz başka bir algoritma ya da fikir önceden sorulmak şartıyla değerlendirilebilir.
+
+• Taşınabilir yolcu sayısına göre eğim değişeceği için graf yapısında komşuluklar ve ağırlıklar değişebilmektedir. Bu sebeple yolcu sayısına göre graf yapısı değiştirilebilmelidir.
+
