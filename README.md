@@ -60,16 +60,16 @@ olarak verilmelidir. Çıktı üzerinde maksimum kâr hesaplanarak en iyi sonuca
 
 • Çalışma süreleri gösterilmelidir.
 
-### Kullanıcı Kataloğu
+### Kullanıcı Kataloğ
 
-•  Programda hedef ve kaynak sehirleri girerken Türkçe karakter kullanmayiniz ve ilk harfi büyük giriniz. Örnek: Ankara
+•  Programda hedef ve kaynak şehirleri girerken Türkçe karakter kullanmayınız ve ilk harfi büyük giriniz. Örnek: Ankara
 
-•  Yolcu sayisini yazi olarak degil rakam kullanarak giriniz. Örnek: 5, 25, 30 
+•  Yolcu sayısını yazı olarak değil rakam kullanarak giriniz. Örnek: 5, 25, 30 
 
-•  Kaynak sehri, hedef sehri ve yolcu sayisini girdikten sonra 'git' butonuna tiklarsaniz 2 hedef arasindaki (varsa) en kisa 
-yolu bulur ve haritaya çizer. Ayrica zeplinin kalkisindan inisine kadar izledigi yolu tüm ayrintilariyla, 'Hareket_Detay' isimli  dosyaya yazdirir. Bu dosya projenin kendi klasöründe olusur.
+•  Kaynak şehri, hedef şehri ve yolcu sayısını girdikten sonra 'git' butonuna tıklarsanız 2 hedef arasındaki (varsa) en kısa 
+yolu bulur ve haritaya çizer. Ayrica zeplinin kalkışından inişine kadar izlediği yolu tüm ayrıntılarıyla, 'Hareket_Detay' isimli  dosyaya yazdırır. Bu dosya projenin kendi klasöründe oluşur.
 
-•  Kaynak sehri ve hedef sehri girdikten sonra 'problem 2' butonuna tiklarsaniz 5-50 yolcu arasinda sabit ücretle yapilan kârlari bulur ve en fazla kârın oldugu yolcu sayisindaki güzergahi haritaya çizer.
+•  Kaynak şehri ve hedef şehri girdikten sonra 'problem 2' butonuna tıklarsanız 5-50 yolcu arasında sabit ücretle yapılan kârları bulur ve en fazla kârın olduğu yolcu sayısındaki güzergahı haritaya çizer.
 
-• Kaynak sehri ve hedef sehri girdikten sonra 'problem 3' butonuna tiklarsaniz 10,20,30,40,50 yolcu ile kisi basi ne kadar ücret 
-alirsam 50% kâri elde edebilirim problemini çözer ve kisi basi en az ücret düsen ihtimalin güzergahini haritaya çizdirir.
+• Kaynak şehri ve hedef şehri girdikten sonra 'problem 3' butonuna tıklarsanız 10,20,30,40,50 yolcu ile kişi başı ne kadar ücret 
+alırsam 50% kârı elde edebilirim problemini çözer ve kişi başı en az ücret düşen ihtimalin güzergahını haritaya çizdirir.
