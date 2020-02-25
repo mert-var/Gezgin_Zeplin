@@ -1,8 +1,8 @@
 # Gezgin Zeplin Problemi
 
-**Giriş:**  En kısa yol problemi, bir başlangıç düğümünden bir bitiş düğümüne en az maliyeti olan yolu bulma problemidir.
+**Giriş:**      En kısa yol problemi, bir başlangıç düğümünden bir bitiş düğümüne en az maliyeti olan yolu bulma problemidir.
 
-**Amaç:**   Projeyi yapan kişi için veri yapıları ve veri modellerini anlaması, graf yapısını kullanması ve algoritma mantığı kullanarak bir probleme çözüm sağlayabilmesi amaçlanmaktadır.
+**Amaç:**       Projeyi yapan kişi için veri yapıları ve veri modellerini anlaması, graf yapısını kullanması ve algoritma mantığı kullanarak bir probleme çözüm sağlayabilmesi amaçlanmaktadır.
 
 ### Problemin Tanımı
 
