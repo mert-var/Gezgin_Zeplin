@@ -10,9 +10,9 @@ Bir turizm firması yeni geliştirilen Zeplin aracı ile turistlere Türkiye'yi 
 
 #### Firmanın talepleri:
 
-• Sabit ücret 20 TL olarak alındığında kaç yolcu ile sefer düzenlenirse maksimum kâr elde edilir ?
+    • Sabit ücret 20 TL olarak alındığında kaç yolcu ile sefer düzenlenirse maksimum kâr elde edilir ?
 
-• Bir yolcudan kaç TL alınırsa yüzde 50 kâra ulaşılır ?
+    • Bir yolcudan kaç TL alınırsa yüzde 50 kâra ulaşılır ?
 
 **Aracın özellikleri:**
 
