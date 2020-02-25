@@ -34,7 +34,7 @@ Bir turizm firması yeni geliştirilen Zeplin aracı ile turistlere Türkiye'yi 
 
 **Çözüm için yapılması gereken adımlar:**
 
-• Türkiye'nin şehirlerini işeren latitude, longitute, altitude (rakım) ve komşuluk bilgilerini işeren bir dosya hazırlanmalıdır (lat long altitude bilgileri işin verilen dosyadan faydalanılmalı).
+• Türkiye'nin şehirlerini içeren latitude, longitute, altitude (rakım) ve komşuluk bilgilerini içeren bir dosya hazırlanmalıdır (lat long altitude bilgileri için verilen dosyadan faydalanılmalı).
 
 • Her şehrin komşu şehrine gidip gidemeyeceği tespit edilmelidir. Bunun tespiti için kendi rakım ve komşu şehrin rakım bilgisi değerlendirilerek eğim (derece) kriterini sağlayıp sağlamadığına bakılmalıdır. Eğim hesaplanırken yükseklik değeri metre, yatay mesafe kilometre olarak alınmalıdır.
 
@@ -44,3 +44,17 @@ Bir turizm firması yeni geliştirilen Zeplin aracı ile turistlere Türkiye'yi 
 
 • Taşınabilir yolcu sayısına göre eğim değişeceği için graf yapısında komşuluklar ve ağırlıklar değişebilmektedir. Bu sebeple yolcu sayısına göre graf yapısı değiştirilebilmelidir.
 
+• Graf için girdi olarak başlangıç ve bitiş şehri seçilebilmelidir. Seçilen şehirler arasında graf üzerinde en kısa yol algoritması işletilerek yolcu sayısına göre farklı çözümler sunulmalıdır.
+
+### Proje İsterleri
+
+• Konum ve güzergah bilgileri ayrı ayrı harita üzerinde gösterilmelidir (resim vs).
+
+• Sabit ücretle kaç yolcu ile sefer düzenlenirse en çok kârı yapabilirim probleminde; 5 ile 50 arasındaki yolcu sayıları kadar olan yolcu sayısı için en iyi çözümü veren yol (harita üzerinde) ve girdi olarak alınan şehirler arasındaki toplam yollar ayrı ayrı çıktı
+olarak verilmelidir. Çıktı üzerinde maksimum kâr hesaplanarak en iyi sonuca göre sıralanmalıdır.
+
+• Bir yolcudan kaç TL alınırsa yüzde 50 kâr yapılabilir probleminde; 10,20,30,40,50 yolcu sayıları için en iyi çözümü veren yol (harita üzerinde) ve girdi olarak alınan şehirler arasındaki toplam yollar ayrı ayrı çıktı olarak verilmelidir. Çıktı üzerinde kâr miktarı yüzde 50 olacak şekilde bir yolcudan alınması gereken para miktarı hesaplanmalıdır.
+
+• Her iki problem için lat, long ve komşular arasındaki mesafeler bir dosyaya yazılmalıdır.
+
+• Çalışma süreleri gösterilmelidir.
