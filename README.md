@@ -35,7 +35,8 @@ Projeyi yapan kişi için veri yapıları ve veri modellerini anlaması, graf ya
 
 **Çözüm için yapılması gereken adımlar:**
 
-• Türkiye'nin şehirlerini içeren latitude, longitute, altitude (rakım) ve komşuluk bilgilerini içeren bir dosya hazırlanmalıdır (lat long altitude bilgileri için verilen dosyadan faydalanılmalı).
+• Türkiye'nin şehirlerini içeren latitude, longitute, altitude (rakım) ve komşuluk bilgilerini içeren bir dosya hazırlanmalıdır
+(lat long altitude bilgileri için verilen dosyadan faydalanılmalı).
 
 • Her şehrin komşu şehrine gidip gidemeyeceği tespit edilmelidir. Bunun tespiti için kendi rakım ve komşu şehrin rakım bilgisi değerlendirilerek eğim (derece) kriterini sağlayıp sağlamadığına bakılmalıdır. Eğim hesaplanırken yükseklik değeri metre, yatay mesafe kilometre olarak alınmalıdır.
 
@@ -60,7 +61,7 @@ olarak verilmelidir. Çıktı üzerinde maksimum kâr hesaplanarak en iyi sonuca
 
 • Çalışma süreleri gösterilmelidir.
 
-### Kullanıcı Kataloğ
+### Kullanıcı Kataloğu
 
 •  Programda hedef ve kaynak şehirleri girerken Türkçe karakter kullanmayınız ve ilk harfi büyük giriniz. Örnek: Ankara
 
